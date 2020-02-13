@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581590230143.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1083582534",
+    "id" : "E14C3727",
+    "lastKnownWriteTime" : 1581590325,
+    "last_content_update" : 1581590325993,
+    "path" : "~/00R/odOCT2018/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "87,88",
+        "scrollLine" : "75"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
