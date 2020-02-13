@@ -1,0 +1,26 @@
+<style>
+body {
+text-align: justify}
+</style>
+### Vista de Plano  
+
+En esta vista se podrán generar diferentes planos:  
+
+1. Plano de definición de zonas.  
+2. Planos con datos de los viajes con origen o destino en una de las zonas.  
+3. Planos con los viajes generados o atraídos por cada una de las zonas.  
+4. Planos de saldo de viajes (generados menos atraídos).  
+
+El texto encima del plano indicará en cada momento el tipo de plano que se presenta y un sumario de los viajes totales.
+
+**Planos de definición de zonas.-** Se generan al modificar la selección en el desplegable de zonificación o al presionar el botón  `r shiny::icon("fast-backward", lib = "glyphicon")`. Este plano muestra la zonificación seleccionada en **Zonificación** con etiquetas de nombres en caso de macrozonas y municipios o número para zonas de transporte.  
+
+**Planos con datos de los viajes con origen o destino en una de las zonas.-** Haciendo click directamente sobre una de las zonas -ya sea en el plano de macrozonas, municipios o zonas de transporte- se calculará para cada una de las zonas en las que está dividida la isla los viajes con **origen o destino** en la zona seleccionada. Los viajes con **origen** en la zona seleccionada se mostrarán en caso de que en el desplegable *Generación - Atracción de Viajes* se haya seleccionado la opción *Generación*. Igualmente en caso de que se seleccione la opción *Atracción* se mostrarán los viajes con origen en cada una las zonas cuyo **destino** es la zona seleccionada.  
+
+**Planos con los viajes generados o atraídos por cada una de las zonas.-** Presionando el botón `r shiny::icon("exchange-alt", lib = "font-awesome")` se presenta en cada zona del mapa el número de viajes generados o atraídos por cada zona dependiendo de la selección realizada en el desplegable *Generación - Atracción de Viajes*.  
+
+
+[Introducción](00_inicio.html)  
+[<< Análisis a realizar](01_analisis.html)  
+[>> Vista de Plano](02_plano.html)  
+ 
