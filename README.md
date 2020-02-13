@@ -1,1 +1,2 @@
 # odOCT2018
+The application is a Tenerife island travel data viewer. The data was obtained from mobile phones in october 2018. It allows to visualize the trips generated and attracted by each zone and the trips between zones. Trips can be filtered by distance, activity at origin and destination, place of residence of the traveler and time of the day. Data download is allowed. Analisys is made for three different zone definition. It includes line charts and chord diagrams.
